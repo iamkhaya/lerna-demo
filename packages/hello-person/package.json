@@ -21,10 +21,14 @@
     "type": "git",
     "url": "git+https://github.com/iamkhaya/lerna-demo.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/iamkhaya/lerna-demo/issues"
-  }
+  },
+  "gitHead": "5416f3bb4a82df0afae28f32ad476dbca0417f3c"
 }
