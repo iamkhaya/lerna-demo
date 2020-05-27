@@ -1,0 +1,31 @@
+{
+  "name": "hellocomponent",
+  "version": "1.0.0",
+  "description": "hello",
+  "keywords": [
+    "hello"
+  ],
+  "author": "Khayelihle Tshuma <khayelihle.tshuma@gmail.com>",
+  "homepage": "https://github.com/iamkhaya/lerna-demo/tree/master/packages/helloComponent#readme",
+  "license": "MIT",
+  "main": "lib/helloComponent.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamkhaya/lerna-demo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "bugs": {
+    "url": "https://github.com/iamkhaya/lerna-demo/issues"
+  }
+}
