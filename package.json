@@ -1,6 +1,5 @@
 {
   "name": "@iamkhaya/lerna-test",
-  "private": false,
   "devDependencies": {
     "lerna": "^3.22.0",
     "microbundle": "^0.12.0"
