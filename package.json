@@ -7,7 +7,9 @@
   "version": "1.0.0",
   "description": "lerna demo",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.13.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

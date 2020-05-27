@@ -25,7 +25,9 @@
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "microbundle",
+    "dev": "microbundle watch"
   },
   "bugs": {
     "url": "https://github.com/iamkhaya/lerna-demo/issues"
