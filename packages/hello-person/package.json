@@ -1,5 +1,5 @@
 {
-  "name": "hello-person",
+  "name": "@iamkhaya/hello-person",
   "version": "1.0.4",
   "description": "hello person",
   "keywords": [
@@ -30,5 +30,5 @@
   "bugs": {
     "url": "https://github.com/iamkhaya/lerna-demo/issues"
   },
-  "gitHead": "0ffb5a1d9235d4d13990d34b31168590649f6fbb"
+  "gitHead": "b10b3b0172d6e759eb1cc844508f8cf2a9b0376d"
 }
