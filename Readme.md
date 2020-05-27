@@ -1,5 +1,9 @@
+install webpack
+```
+npm install webpack webpack-cli --save-dev
+```
 
-
+'@babel/preset-env',
 ```
 npm i microbundle --save-dev
 ```
