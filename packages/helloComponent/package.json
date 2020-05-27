@@ -1,5 +1,5 @@
 {
-  "name": "hellocomponent",
+  "name": "@iamkhaya/hellocomponent",
   "version": "1.0.1",
   "description": "hello",
   "keywords": [
@@ -27,5 +27,6 @@
   },
   "bugs": {
     "url": "https://github.com/iamkhaya/lerna-demo/issues"
-  }
+  },
+  "gitHead": "e261cf9088b82201cbfa52c4301440023dce19b8"
 }
