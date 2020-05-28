@@ -1,3 +1,39 @@
+# getting started
+
+## Creating a new package
+
+```
+lerna create library
+```
+
+## Build the package
+
+To distribute the package you will have to compile it into a distributable.
+
+```
+lerna run build-lib
+```
+
+## Publish the package
+
+```
+lerna publish
+```
+
+## Install package level dependency
+
+e.g.
+```
+lerna add @storybook/react packages/my-pkg-name
+```
+
+
+## Install project level dependency
+lerna bootstrap --hoist ???
+
+
+
+
 install webpack
 ```
 npm install webpack webpack-cli --save-dev
@@ -11,6 +47,15 @@ npm i microbundle --save-dev
 npx lerna run build
 
 npx lerna publish
+
+
+
+
+
+
+
+
+
 
 
 Troubleshooting:
