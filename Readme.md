@@ -1,3 +1,13 @@
+#### getting started
+
+
+lerna create library
+
+
+lerna add @storybook/react —-scope=@my-project/library
+
+
+
 install webpack
 ```
 npm install webpack webpack-cli --save-dev
@@ -11,6 +21,15 @@ npm i microbundle --save-dev
 npx lerna run build
 
 npx lerna publish
+
+
+
+
+
+
+
+
+
 
 
 Troubleshooting:
