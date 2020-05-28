@@ -1,7 +1,7 @@
 {
-  "name": "@iamkhaya/hello-person",
-  "version": "1.0.12",
-  "description": "hello person",
+  "name": "hello-person",
+  "version": "1.0.0",
+  "description": "@iamkhaya/hello person",
   "keywords": [
     "hello",
     "person"
@@ -15,32 +15,26 @@
     "test": "__tests__"
   },
   "files": [
-    "dist"
+    "lib"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iamkhaya/lerna-demo.git"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "webpack --mode production",
-    "dev": "microbundle watch"
+    "storybook": "start-storybook -p 9009",
+    "build-lib": "babel src — out-dir lib"
   },
   "bugs": {
     "url": "https://github.com/iamkhaya/lerna-demo/issues"
   },
-  "gitHead": "b10b3b0172d6e759eb1cc844508f8cf2a9b0376d",
-  "devDependencies": {
-    "@babel/core": "^7.10.0",
-    "@babel/preset-env": "^7.10.0",
-    "babel-loader": "^8.1.0",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
-  },
   "dependencies": {
-    "babel-preset-react": "^6.24.1"
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "@babel/preset-react": "^7.10.1",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0"
   }
 }
